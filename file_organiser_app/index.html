@@ -1,0 +1,113 @@
+   <!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <title>File Organiser</title>
+         <link rel="stylesheet" href="assets/css/style.css">
+         <link rel="stylesheet" href="assets/css/normalize.css">
+
+         <!-- Google Fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+      </head>
+      <body>
+
+            <!-- Header -->
+
+            <header>
+               <nav>
+                  <ul class="nav-elements">
+                     <li class="current"><a href="#">Home</a></li>
+                     <li><a href="#">About me</a></li>
+                     <li><a href="#">Howe to use</a></li>
+                     <li><a href="#">Technologies</a></li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+                  <div class="night-mode"><img src="assets/img/1.png" alt=""></div>
+                  <div class="night-mode-info">Night-mode</div>
+               </nav>
+            </header>
+
+            <!-- End Header -->
+
+            <section class="container">
+
+               <!-- section in the left side -->
+
+               <section class="left-side-section">
+                  <div class="show-image">
+                     <img src="assets/img/html5.png" alt="" id="item-image">
+                     <span id="image-legend">HTML5</span>
+                  </div>
+                  <form action="">
+                     <label class="first-label" for="selected">Choose the language : </label>
+                     <select name="languages" id="languages">
+                        <option value="html"  selected>HTML</option>
+                        <option value="js">Javascript</option>
+                        <option value="css">CSS</option>
+                     </select>
+
+                     <div class="input-file-container">
+                        <input class="input-file" type="file" id="my-file" >
+                        <label for="my-file" class="upload-file"><img src="assets/img/download.png" alt="">Select a file...</label>
+                     </div>
+                     <button type="submit" name="submit">Upload File</button>
+                     <p class="file-path"></p>
+                     <a href="">Download</a>
+                  </form>
+               </section>
+
+                 <!-- End-->
+
+               <!-- section in the right side -->
+
+               <section class="right-side-section">
+                 <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                      Mollitia ullam dolor temporibus doloremque voluptate expedita,<br>
+                      a ad at fugiat enim ipsa neque, accusantium deserunt provident,<br>
+                      vero omnis beatae rem amet!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br>
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br>
+                      cupidatat non proident, sunt in culpa qui officia deserunt<br>
+                      mollit anim id est laborum.</p>
+                 </div>
+                 <div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                Mollitia ullam dolor temporibus doloremque voluptate expedita,<br>
+                a ad at fugiat enim ipsa neque, accusantium deserunt provident,<br>
+                vero omnis beatae rem amet!</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br>
+                    cupidatat non proident, sunt in culpa qui officia deserunt<br>
+                    mollit anim id est laborum.</p>
+                 </div>
+                 <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                      Mollitia ullam dolor temporibus doloremque voluptate expedita,<br>
+                      a ad at fugiat enim ipsa neque, accusantium deserunt provident,<br>
+                      vero omnis beatae rem amet!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br>
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br>
+                      cupidatat non proident, sunt in culpa qui officia deserunt<br>
+                      mollit anim id est laborum.</p>
+                  </div>
+               </section>
+
+                <!-- section in the right side -->
+            </section>
+
+         <script src="assets/js/file.js"></script>
+      </body>
+   </html>

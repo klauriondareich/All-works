@@ -1,0 +1,193 @@
+/* HEADER */
+body{font-family: 'Abel', sans-serif;}
+header{
+  margin: 0;
+  padding:0;
+}
+nav{
+  background: #1A7391;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.night-mode{
+  cursor: pointer;
+  margin-left: 40px;
+  position: absolute;
+  top: 20px;
+  right: 120px;
+}
+.night-mode:hover+.night-mode-info{
+  visibility: visible;
+}
+.night-mode-info{
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  background: #000;
+  color: white;
+  padding: 10px;
+  visibility: hidden;
+}
+.nav-elements {
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.nav-elements * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.nav-elements li {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+.nav-elements a {
+  display: inline-block;
+  padding: 0.5em 20px;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.nav-elements li:first-child a{
+  margin-left: 420px;
+}
+.nav-elements a:hover,
+.nav-elements .current a {
+  color: #ffffff;
+}
+
+/* END */
+
+/* LEFT SIDE SECTION STYLE */
+
+.left-side-section{
+  height: 100vh;
+  position: fixed;
+  top: 64px;
+}
+.first-label{
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 50px;
+}
+#selected{
+  margin-left: 40px;
+  padding: 5px;
+  outline: none;
+}
+form{
+  margin-left: 100px;
+}
+.second-label{
+  background-color: yellow;
+  padding: 5px;
+}
+button[type="submit"]{
+  padding: 12px;
+  background-color: #1A7391 ;
+  border: none;
+  font-weight: bold;
+  color: white;
+  transition: all .4s;
+  position: relative;
+  top: -42px;
+  left: 280px;
+}
+button[type="submit"]:focus{outline: 0;}
+button[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #105F6C;
+}
+.show-image{
+  border-bottom: 2px solid #1A7391 ;
+  border-top: 2px solid #1A7391 ;
+  padding: 20px;
+  width: 60px;
+  position: absolute;
+  top: 150px;
+  left: 230px;
+}
+.show-image span{
+  margin-left: 12px;
+  font-weight: bold;
+}
+.show-image:hover span{
+  color: white;
+  font-weight: bold;
+}
+.show-image:hover{
+  background-color: #1A7391;
+  cursor: pointer;
+}
+.show-image img{
+  padding-bottom: 10px;
+}
+.js .input-file-container {
+  position: relative;
+  width: 225px;
+  margin-top: 290px;
+}
+.js .upload-file {
+  display: block;
+  padding: 14px 45px;
+  background-color: #1A7391;
+  color: white;
+  font-weight: bold;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .upload-file img {
+  margin-right: 12px;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  padding: 14px 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .upload-file,
+.js .input-file:focus + .upload-file,
+.js .upload-file:hover,
+.js .upload-file:focus {
+  background: #105F6C;
+  color: white;
+  cursor: pointer;
+}
+.file-path {
+  margin: 0;
+}
+.file-path:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-path {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-path:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* END */
+
+/* RIGHT SIDE SECTION STYLE */
+
+.right-side-section{
+  float: right;
+  background:  #eee;
+  padding-left: 30px;
+  width: 55%;
+}
