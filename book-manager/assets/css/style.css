@@ -1,15 +1,10 @@
-@font-face {
+/* @font-face {
   src: url(../fonts/Gudea-Regular.ttf);
   font-family: "Gudea";
 }
 @font-face {
   src: url(../fonts/Orbitron-Regular.ttf);
   font-family: "Orbitron";
-}
-body{font-family: "Gudea",sans-serif;}
-/* header.connexion-header{
-  background-color: #263646;
-  height: 50px;
 } */
 .navbar-link{
   color: white;
@@ -30,10 +25,11 @@ body{font-family: "Gudea",sans-serif;}
   padding: 13px;
   width: 350px;
 }
-.form-class input:not(#checkbox):focus {
+/* .form-class input:not(#checkbox):focus {
   border: 1px solid #2E82A0;
-}
+} */
 .form-class input:focus {
+  box-shadow: 0 0 10px #2E82A0;
   outline: 0;
 }
 .form-class button:hover{
@@ -41,7 +37,12 @@ body{font-family: "Gudea",sans-serif;}
   cursor: pointer;
 }
 .form-class button:focus{
+  box-shadow: 0 0 20px #2E82A0;
   outline: none;
+}
+a:focus{
+  font-weight: bold;
+  color: #2E82A0;
 }
 .form-class button{
   padding: 15px;
@@ -52,7 +53,7 @@ body{font-family: "Gudea",sans-serif;}
   width: 270px;
   font-size: 18px;
   margin-left: 80px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .form-class button+a{
   display: block;
