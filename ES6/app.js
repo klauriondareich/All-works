@@ -77,8 +77,8 @@ function FullInformation(name, id){
     console.log(`${this.name} ${this.age} ${this.id}`);
   }
 }
-let Eleve = new FullInformation("Laurion", "2333");
-Eleve.display();
+let eleve = new FullInformation("Laurion", "2333");
+eleve.display;
 
 // Prototype //
 
@@ -90,8 +90,8 @@ function FullInformation(name, id){
 FullInformation.prototype.display = function(){
   console.log(`${this.name} ${this.age} ${this.id}`);
 }
-let Eleve = new FullInformation("Laurion", "2333");
-Eleve.display();
+let knowMe = new FullInformation("Laurion", "2333");
+knowMe.display();
 
 // Array Iteration //
 
@@ -114,3 +114,21 @@ console.log(isTrue);
 
 let firstElt = carIds.find(item => item.cardId > 500);
 console.log(firstElt);
+
+/* POO
+Constructor function and Class inheritance */
+class Person {
+  constructor(name){
+    this.name = name;
+  }
+}
+
+class Professor extends Person{
+  constructor(course){
+    super();
+    this.course = "Mathematics";
+  }
+}
+let me = new Professor("I am professor laurion");
+console.log(me.name);
+console.log(me.course);
