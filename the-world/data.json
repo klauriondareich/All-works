@@ -1,0 +1,29 @@
+ {
+   "continents": [
+                   {
+                     "id": 1,
+                     "name": "Amérique",
+                     "description": "L’Amérique est un continent du monde regroupant 35 pays répartis sur trois régions géographiques."
+                   },
+                   {
+                     "id": 2,
+                     "name": "Afrique",
+                     "description": "L’Afrique est un continent qui couvre 6 % de la surface de la Terre et 20 % de la surface des terres émergées."
+                   },
+                   {
+                     "id": 3,
+                     "name": "Asie",
+                     "description": "L'Asie est un des sept continents ou une partie des supercontinents Eurasie ou Afro-Eurasie de la Terre. Avec 43 810 582 km² de terres."
+                   },
+                   {
+                     "id": 4,
+                     "name": "Europe",
+                     "description": "L'Europe est un continent. Elle est bordée par l'océan Atlantique à l'ouest, l'océan Arctique au nord, la mer Méditerranée et la mer Noire au sud."
+                   },
+                   {
+                     "id": 5,
+                     "name": "Océanie",
+                     "description": "L'Océanie est un continent 1 composé d'îles : l'Australie, qui est la plus grande île du monde, la Nouvelle-Zélande, la Papouasie-Nouvelle-Guinée et environ 10 000 îles de l'océan Pacifique."
+                   }
+                 ]
+ }
