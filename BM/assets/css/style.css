@@ -1,0 +1,47 @@
+body{
+  margin : 0;
+  padding: 0;
+  background-color: rgb(54, 54, 54);
+}
+.view-doc {
+  width: 75%;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: 10px;
+  /* position: fixed; */
+  border: 1px solid white;
+}
+.doc{
+  display: inline-block;
+}
+.document-container{
+  width: 200px;
+  padding: 20px;
+  float: right;
+  background-color: #333333;
+}
+.search-bar
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #2E2E2E ;
+  /* border: 1px solid red; */
+  width: 200px;
+  padding: 20px;
+}
+input {
+  padding: 5px;
+  border: 0;
+  width: 200px;
+}
+input:focus{
+  outline: none;
+}
+.document-container img {
+  margin-top: 20px;
+}
+img:hover{cursor: pointer;}
+#first img {
+  margin-top: 60px;
+}
