@@ -112,42 +112,33 @@ blockquote{
 }
 
 /* Homepage Style */
-.home-body{
-  background-color: #D9E8D7;
-}
 .home-header{
   padding: 0;
   margin: 0;
   background: #0E5378;
 }
-.navbar-home{
-  background: #2E82A0;
-  position: fixed;
-  left: 0;
-  height: 100vh;
-}
-.navbar-home ul{
-  list-style-type: none;
-  width: 100%;
-  padding: 0;
-  }
-.navbar-home ul li {
-  font-size: 18px;
-  padding: 20px;
-}
 a{text-decoration: none;}
 input[type="search"]{
   width: 500px;
-  padding: 12px;
-  margin-left: 200px;
+  padding: 7px;
+  margin-left: 150px;
   border-radius: 2px;
   border: none;
+  background: rgba(255, 255, 255, 0.3);
+}
+input[type="search"]:focus{
+  background: rgba(255, 255, 255);
 }
 .home-header{
-  position: relative;
-  top: 0;
-  left: 0;
-  padding: 15px;
+  padding-top: 9px;
+}
+.icon{
+  margin-left: 20px;
+  padding: 2px 5px;
+}
+.mg-lf{margin-left: 120px;}
+.icon:hover{
+  box-shadow: 0 0 20px #fff;
 }
 .home-header div{
   display: inline-block;
@@ -163,16 +154,15 @@ input[type="search"]{
 .home-header div a{
   color: white;
 }
-.home-header div img{
-  margin-left: 8px;
-}
 .home-header div form{
-  position: absolute;
-  top: 18px;
+  position: relative;
+  top:-6px;
 }
 .home-container{
-  margin-top: 200px;
-  margin-left: 128px;
+  height: 100vh;
+}
+.home-container-content{
+  padding: 20px;
 }
 .errorMsg{
   font-size: 13px;
@@ -180,9 +170,4 @@ input[type="search"]{
   position: absolute;
   top: -25px;
   left: 50px;
-}
-.position {
-  position: relative;
-  top: 0;
-  left: 0;
 }

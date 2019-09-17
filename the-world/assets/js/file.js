@@ -5,6 +5,10 @@
     element.addEventListener("click",isContinentSelected);
   });
 
+  const callData = () =>{
+    
+  }
+
   function isContinentSelected(){
     this.dataset.selected = this.dataset.selected === "true" ? "false":"true";
 
@@ -12,11 +16,13 @@
     selectedContinent();
   };
 
+
   function numberOfSelectedElement(){
     let selectedElt = document.querySelectorAll("li[data-selected='true']").length;
 
     document.querySelector(".last-block span:nth-child(2)").textContent = "Nombre : " + selectedElt;
   }
+
 
   function selectedContinent(){
     let isTrueArray = document.querySelectorAll("li[data-selected='true']");

@@ -75,7 +75,7 @@
           </div>
         </form>
       <div class="col-6">
-        <blockquote>Connect and open the world of books</blockquote>
+        <blockquote style="margin-top: 100px;">Connect and open the world of books</blockquote>
         <img src="assets/img/book3.png" alt="">
       </div>
     </div>

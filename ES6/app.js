@@ -132,3 +132,12 @@ class Professor extends Person{
 let me = new Professor("I am professor laurion");
 console.log(me.name);
 console.log(me.course);
+
+/* Join array elements to a string */
+
+let table = [];
+for (let i = 0; i<2; i++){
+  table.push('*');
+}
+table = table.join("");
+console.log(table);
